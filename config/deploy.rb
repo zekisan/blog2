@@ -27,7 +27,6 @@ set :puma_worker_timeout, nil
 set :puma_init_active_record, true
 set :puma_preload_app, false
 
-set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/blog2.pem) }
 
 
 # Default branch is :master
